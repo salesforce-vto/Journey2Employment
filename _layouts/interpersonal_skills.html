@@ -1,0 +1,45 @@
+---
+layout: single
+---
+
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+      .column {
+        float: left;
+        padding: 30px;
+      }
+
+      .left {
+        width: 35%;
+      }
+
+      .right {
+        width: 65%;
+      }
+
+      .button {
+        width: 100%;
+        display: block;
+        margin: 10px;
+      }
+
+      .top {
+        margin-top: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="row">
+      <div class="column left">
+        <img src="{{ '/assets/images/salesforce-logo.png' | relative_url }}" alt="Interpersonal Skills"/>
+        <button type="button" onclick="location.href='{{page.deck}}'" class="button btn top">Deck</button>
+        <button type="button" onclick="location.href='{{page.video}}'" class="button btn">Session Video</button>
+      </div>
+      <div class="column right">
+        {{ content }}
+      </div>
+    </div>
+  </body>
+</html>

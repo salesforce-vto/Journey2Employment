@@ -1,0 +1,55 @@
+# main links
+main:
+  - title: "Skills"
+    url: /docs/html-css
+  - title: "Resources"
+    url: /docs/resources
+  - title: "More"
+    url: /docs/more
+
+docs:
+  - title: "Technical Skills"
+    children:
+      - title: "HTML,CSS"
+        url:   /docs/html-css
+      - title: "Git"
+        url:   /docs/git
+      - title: "Python"
+        url:   /docs/python
+      - title: "Django"
+        url:   /docs/django
+      - title: "Javascript 1"
+        url:   /docs/javascript1
+      - title: "Javascript 2"
+        url:   /docs/javascript2
+      - title: "Javascript 3"
+        url:   /docs/javascript3
+      - title: "Javascript 4"
+        url:   /docs/javascript4
+      - title: "Javascript 5"
+        url:   /docs/javascript5
+      - title: "Javascript 6"
+        url:   /docs/javascript6
+      - title: "Javascript 7"
+        url:   /docs/javascript7
+
+  - title: "Interpersonal Skills"
+    children:
+      - title:  "Goal Setting/ Statement of Purpose"
+        url:    /docs/goal-setting
+      - title:  "Productivity and Time Management"
+        url:    /docs/time-management
+      - title:  "Email Etiquette- Tool + Comm"
+        url:    /docs/email-etiquette
+      - title:  "G-Suite"
+        url:    /docs/g-suite
+      - title:  "Presentation Skills"
+        url:    /docs/presentation-skills
+      - title:  "CV Writing"
+        url:    /docs/cv-writing
+      - title:  "Building a professional network & leveraging LinkedIn"
+        url:    /docs/professional-network
+      - title:  "Interview Preparation"
+        url:    /docs/interview-preparation
+      - title:  "Personal Finance 101"
+        url:    /docs/personal-finance
